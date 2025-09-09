@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-  origin: "https://devsync-backend-m35p.onrender.com/",
+  origin: "https://devsync-frontend.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true // needed if using cookies/sessions
 }));
